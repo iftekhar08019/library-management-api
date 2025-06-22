@@ -4,16 +4,6 @@ import app from './app';
 
 dotenv.config();
 
-mongoose.connection.on('connected', () => {
-  console.log('MongoDB connected!');
-});
-mongoose.connection.on('error', (err) => {
-  console.log('MongoDB connection error:', err);
-});
-mongoose.connection.on('disconnected', () => {
-  console.log('MongoDB disconnected!');
-});
-
 const PORT = process.env.PORT || 5000;
 const DB = process.env.MONGODB_URI!;
 

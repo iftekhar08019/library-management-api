@@ -262,5 +262,5 @@ All errors conform to this structure:
 
 ## 📹 Demo Links
 
-- **Video Demo:** [Video Explanation Link Here](#)
-- **Live Demo:** [Live Deployment Link Here](#)
+- **Video Demo:** [https://drive.google.com/file/d/1JPupvpwCQBfntjORGozze_NNTqFbiONB/view?usp=sharing](#)
+- **Live Demo:** [https://library-management-api-blue.vercel.app/](#)
